@@ -1,0 +1,127 @@
+.predict-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .predict-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.p-6 { padding: 24px; }
+.mt-4 { margin-top: 16px; }
+.mt-6 { margin-top: 24px; }
+.full-width { width: 100%; display: flex; justify-content: center; align-items: center; gap: 8px;}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 12px;
+}
+
+.section-header h2 { margin: 0; font-size: 1.25rem; }
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.slider {
+  width: 100%;
+  accent-color: var(--primary-color);
+}
+
+.slider-value {
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--primary-light);
+  margin-top: 4px;
+}
+
+.highlight-card {
+  background: linear-gradient(135deg, rgba(46, 125, 50, 0.1), rgba(30, 30, 30, 0.8));
+  border: 1px solid rgba(46, 125, 50, 0.3);
+}
+
+.yield-value {
+  margin: 20px 0;
+}
+
+.yield-value .number {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.yield-value .unit {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  margin-left: 8px;
+}
+
+.yield-secondary {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+}
+
+.yield-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.yield-badge.high { background: rgba(102, 187, 106, 0.2); color: var(--success); }
+.yield-badge.medium { background: rgba(255, 167, 38, 0.2); color: var(--warning); }
+.yield-badge.low { background: rgba(239, 83, 80, 0.2); color: var(--danger); }
+
+.recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.recommendation-item {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.rec-icon {
+  flex-shrink: 0;
+}
+
+.rec-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.empty-state {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--text-muted);
+  min-height: 400px;
+}

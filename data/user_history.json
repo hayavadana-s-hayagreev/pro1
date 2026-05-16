@@ -1,0 +1,315 @@
+{
+  "searches": [],
+  "predictions": [
+    {
+      "id": "1778949660.837284",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:11:00.837302",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39479.62839087189,
+        "predicted_yield_tonnes_ha": 3.947962839087189,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83d\udca7 IRRIGATION: Low rainfall detected. Consider implementing drip irrigation systems to conserve water.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Potatoes",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 50.0,
+          "pesticide": 0.0,
+          "temperature": 21.0
+        }
+      }
+    },
+    {
+      "id": "1778949654.965797",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:10:54.965818",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 43115.614071159085,
+        "predicted_yield_tonnes_ha": 4.311561407115908,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\u2744\ufe0f CLIMATE: Low temperatures may slow growth. Use row covers or consider cold-hardy crop varieties.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Potatoes",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2915.0,
+          "pesticide": 0.0,
+          "temperature": -5.0
+        }
+      }
+    },
+    {
+      "id": "1778949633.312425",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:10:33.312444",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 42774.50334997009,
+        "predicted_yield_tonnes_ha": 4.277450334997009,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83d\udca7 IRRIGATION: Low rainfall detected. Consider implementing drip irrigation systems to conserve water.",
+          "\u2744\ufe0f CLIMATE: Low temperatures may slow growth. Use row covers or consider cold-hardy crop varieties.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 50.0,
+          "pesticide": 0.0,
+          "temperature": -5.0
+        }
+      }
+    },
+    {
+      "id": "1778949629.036058",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:10:29.036075",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 42518.303168774124,
+        "predicted_yield_tonnes_ha": 4.251830316877412,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83d\udca7 IRRIGATION: Low rainfall detected. Consider implementing drip irrigation systems to conserve water.",
+          "\u2744\ufe0f CLIMATE: Low temperatures may slow growth. Use row covers or consider cold-hardy crop varieties.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 50.0,
+          "pesticide": 1537.0,
+          "temperature": -5.0
+        }
+      }
+    },
+    {
+      "id": "1778949622.014709",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:10:22.014725",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 43070.04783464214,
+        "predicted_yield_tonnes_ha": 4.307004783464214,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\u2744\ufe0f CLIMATE: Low temperatures may slow growth. Use row covers or consider cold-hardy crop varieties.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2871.0,
+          "pesticide": 1537.0,
+          "temperature": -5.0
+        }
+      }
+    },
+    {
+      "id": "1778949613.882019",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:10:13.882038",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 40237.3713389638,
+        "predicted_yield_tonnes_ha": 4.02373713389638,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\u2600\ufe0f CLIMATE: High temperatures may cause heat stress. Consider heat-tolerant varieties or shading techniques if applicable.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2871.0,
+          "pesticide": 1537.0,
+          "temperature": 45.0
+        }
+      }
+    },
+    {
+      "id": "1778949609.506121",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:10:09.506137",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 40224.61377614472,
+        "predicted_yield_tonnes_ha": 4.022461377614472,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\u2600\ufe0f CLIMATE: High temperatures may cause heat stress. Consider heat-tolerant varieties or shading techniques if applicable.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2871.0,
+          "pesticide": 10000.0,
+          "temperature": 45.0
+        }
+      }
+    },
+    {
+      "id": "1778949579.079601",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:09:39.079617",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 40190.69956944791,
+        "predicted_yield_tonnes_ha": 4.019069956944791,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\u2600\ufe0f CLIMATE: High temperatures may cause heat stress. Consider heat-tolerant varieties or shading techniques if applicable.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2129.0,
+          "pesticide": 10000.0,
+          "temperature": 45.0
+        }
+      }
+    },
+    {
+      "id": "1778949573.341179",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:09:33.341195",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39216.342483304456,
+        "predicted_yield_tonnes_ha": 3.9216342483304456,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2129.0,
+          "pesticide": 10000.0,
+          "temperature": 28.0
+        }
+      }
+    },
+    {
+      "id": "1778949568.490671",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:09:28.490688",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39241.2414729765,
+        "predicted_yield_tonnes_ha": 3.92412414729765,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Ecuador",
+          "year": 2024,
+          "rainfall": 2129.0,
+          "pesticide": 150.0,
+          "temperature": 28.0
+        }
+      }
+    },
+    {
+      "id": "1778949558.332774",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:09:18.332826",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39250.88000918042,
+        "predicted_yield_tonnes_ha": 3.925088000918042,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "Guinea",
+          "year": 2024,
+          "rainfall": 2129.0,
+          "pesticide": 150.0,
+          "temperature": 28.0
+        }
+      }
+    },
+    {
+      "id": "1778949541.802073",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:09:01.802134",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39255.26116200039,
+        "predicted_yield_tonnes_ha": 3.925526116200039,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf27\ufe0f CLIMATE: High rainfall detected. Ensure proper field drainage to prevent waterlogging and root rot.",
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "India",
+          "year": 2024,
+          "rainfall": 2129.0,
+          "pesticide": 150.0,
+          "temperature": 28.0
+        }
+      }
+    },
+    {
+      "id": "1778949382.162255",
+      "username": "semicolon",
+      "timestamp": "2026-05-16T22:06:22.163322",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39320.49280441371,
+        "predicted_yield_tonnes_ha": 3.932049280441371,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "India",
+          "year": 2024,
+          "rainfall": 1200.0,
+          "pesticide": 150.0,
+          "temperature": 28.0
+        }
+      }
+    }
+  ]
+}

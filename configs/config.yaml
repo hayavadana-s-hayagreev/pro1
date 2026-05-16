@@ -1,0 +1,74 @@
+project:
+  name: "Crop Yield Estimator"
+  version: "1.0.0"
+  seed: 42
+
+data:
+  raw_path: "data/raw/yield_df.csv"
+  processed_path: "data/processed/processed_data.csv"
+  train_path: "data/processed/train.csv"
+  test_path: "data/processed/test.csv"
+
+features:
+  target: "hg/ha_yield"
+  numerical:
+    - "Year"
+    - "average_rain_fall_mm_per_year"
+    - "pesticides_tonnes"
+    - "avg_temp"
+  categorical:
+    - "Area"
+    - "Item"
+
+split:
+  method: "temporal"
+  test_size: 0.2
+  temporal_column: "Year"
+
+models:
+  linear_regression:
+    enabled: true
+  random_forest:
+    enabled: true
+    n_estimators: 300
+    max_depth: 20
+    min_samples_split: 5
+    min_samples_leaf: 2
+  xgboost:
+    enabled: true
+    n_estimators: 500
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+  lightgbm:
+    enabled: true
+    n_estimators: 500
+    max_depth: 8
+    learning_rate: 0.05
+    num_leaves: 31
+  catboost:
+    enabled: true
+    iterations: 500
+    depth: 6
+    learning_rate: 0.05
+
+training:
+  cv_folds: 5
+  optuna_trials: 30
+  best_model_metric: "rmse"
+  best_model_direction: "minimize"
+
+mlflow:
+  tracking_uri: "mlruns"
+  experiment_name: "crop_yield_prediction"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{line} | {message}"
+  rotation: "10 MB"
+  retention: "7 days"

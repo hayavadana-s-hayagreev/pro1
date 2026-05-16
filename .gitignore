@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+venv/
+.env
+data/raw/*.csv
+data/processed/
+models/*.joblib
+models/*.json
+mlruns/
+logs/
+*.log
+.DS_Store
+.idea/
+.vscode/
+reports/figures/
