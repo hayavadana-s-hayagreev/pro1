@@ -1,0 +1,22 @@
+[
+  "Year",
+  "average_rain_fall_mm_per_year",
+  "pesticides_tonnes",
+  "avg_temp",
+  "rainfall_temp_ratio",
+  "pesticide_intensity",
+  "climate_stress_index",
+  "rainfall_squared",
+  "temp_squared",
+  "year_normalized",
+  "year_squared",
+  "average_rain_fall_mm_per_year_rolling_mean_3",
+  "average_rain_fall_mm_per_year_lag_1",
+  "avg_temp_rolling_mean_3",
+  "avg_temp_lag_1",
+  "hg/ha_yield_rolling_mean_3",
+  "hg/ha_yield_lag_1",
+  "Area_encoded",
+  "Item_encoded",
+  "area_item_interaction"
+]

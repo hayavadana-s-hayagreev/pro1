@@ -2,6 +2,52 @@
   "searches": [],
   "predictions": [
     {
+      "id": "1778981095.239459",
+      "username": "anonymous_user",
+      "timestamp": "2026-05-17T06:54:55.239473",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 38533.9966771447,
+        "predicted_yield_tonnes_ha": 3.85339966771447,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "India",
+          "year": 1991,
+          "rainfall": 1200.0,
+          "pesticide": 4578.0,
+          "temperature": 28.0
+        }
+      }
+    },
+    {
+      "id": "1778980972.050351",
+      "username": "anonymous_user",
+      "timestamp": "2026-05-17T06:52:52.050372",
+      "type": "prediction",
+      "data": {
+        "predicted_yield_hg_ha": 39320.49280441371,
+        "predicted_yield_tonnes_ha": 3.932049280441371,
+        "yield_level": "Medium",
+        "recommendations": [
+          "\ud83c\udf3e RICE: Maintain appropriate water levels in paddies, especially during the vegetative stage.",
+          "\ud83d\udca1 ALTERNATIVE: Consider crop rotation with legumes to naturally improve soil nitrogen levels."
+        ],
+        "inputs": {
+          "crop": "Rice, paddy",
+          "country": "India",
+          "year": 2024,
+          "rainfall": 1200.0,
+          "pesticide": 150.0,
+          "temperature": 28.0
+        }
+      }
+    },
+    {
       "id": "1778949660.837284",
       "username": "semicolon",
       "timestamp": "2026-05-16T22:11:00.837302",

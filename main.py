@@ -1,10 +1,10 @@
-from fastapi import FastAPI, Depends, HTTPException, status
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
 from typing import List
 
-from backend.auth import router as auth_router, get_current_user, User
+from backend.auth import router as auth_router
 from backend.predictor import predict_yield, determine_yield_level
 from backend.recommender import get_recommendations
 from backend.eda_service import get_eda_data
@@ -43,7 +43,7 @@ def health_check():
     return {"status": "healthy", "api": "online"}
 
 @app.post("/predict")
-def make_prediction(req: PredictionRequest, current_user: User = Depends(get_current_user)):
+def make_prediction(req: PredictionRequest):
     try:
         # 1. Predict
         yield_pred = predict_yield(
@@ -65,26 +65,29 @@ def make_prediction(req: PredictionRequest, current_user: User = Depends(get_cur
         }
         
         # 3. Save to history
-        add_prediction(current_user.username, result)
+        add_prediction("anonymous_user", result)
         
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/eda/{chart_type}")
-def get_eda_chart(chart_type: str, current_user: User = Depends(get_current_user)):
+def get_eda_chart(chart_type: str):
     data = get_eda_data(chart_type)
     if not data:
         raise HTTPException(status_code=404, detail="Data not found or chart type invalid")
     return {"data": data}
 
 @app.get("/history")
-def get_history(current_user: User = Depends(get_current_user)):
-    return get_user_history(current_user.username)
+def get_history():
+    return get_user_history("anonymous_user")
 
 @app.post("/history/search")
-def log_search(req: SearchRequest, current_user: User = Depends(get_current_user)):
-    return add_search(current_user.username, req.query)
+def log_search(req: SearchRequest):
+    return add_search("anonymous_user", req.query)
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+import os
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+# ... (rest of the file stays the same, I need to use multi_replace to be precise)
