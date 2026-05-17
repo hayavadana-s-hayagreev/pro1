@@ -732,12 +732,12 @@ if __name__ == "__main__":
         print("\nRecommendations:")
         for i, rec in enumerate(recs, 1):
             print(f"  {i}. {rec}")
-    elif args.mode == "serve":
+    elif args.mode == 'serve':
         import uvicorn
-        logger.info("Starting API server...")
-        app = create_app()
-        uvicorn.run(app, host="0.0.0.0", port=8000)
+        port = int(os.environ.get('PORT', 8000))
+        uvicorn.run(create_app(), host='0.0.0.0', port=port)
     elif args.mode == "eda":
         df = load_data()
         df = clean_data(df)
         run_eda(df)
+app = create_app()
